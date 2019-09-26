@@ -11,6 +11,7 @@ const Header = (props) => {
 }
 
 const Content = (props) => {
+  console.log(props.part1.name)
   return (    
     <div>
       <Part1 part1name={props.parts[0].name} part1number={props.parts[0].exercises} />
